@@ -99,24 +99,24 @@
             <v-img src="@/assets/picture/kids.png" height="700"></v-img>
         </div>
 
-
-
-        <!--
-        원래 버전
-        <div class="place1">
-            <v-img src="@/assets/picture/aptinner.jpg" height="700">
-                     <v-row class="fill-height pa-4" align="center">
-                            <v-col cols="12" md="7" offset-md="1">
-                                <div class="top" >
-                                     <h1>Warm, Tranquil Living</h1>
-                                </div>
-                                <div class="bottom">
-                                    <p> relax your life </p>
-                                </div>
-                            </v-col>
-                    </v-row>
-            </v-img>
-        </div>-->
+    <v-sheet class="mt-5 mb-10">
+    <v-row>
+      <v-col cols="12" md="5">
+        <weather></weather>
+      </v-col>
+    </v-row>
+    </v-sheet>
+    <p></p>
+        <div class="screen2">
+            <div class="top2" >
+                <h3>Warm, Tranquil Living</h3>
+                </div>
+            <div class="bottom2">
+                <p> 아름다운 실내에서 <br>
+                행복한 라이프를 즐기세요 </p>
+            </div>
+            <v-img src="@/assets/picture/kids.png" height="700"></v-img>
+        </div>
     </div>   
 </template>
          
@@ -125,8 +125,13 @@
 
 <script>
 
+import Weather from '@/components/home/Weather'
+
 export default {
   name: 'MainPage',
+
+  components:{Weather},
+
   data() {
     return {
         nav_drawer: false,
