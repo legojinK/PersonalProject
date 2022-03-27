@@ -57,16 +57,13 @@ export default {
   data () {
     return {
 
-      requestLink: 'https://api.openweathermap.org/data/2.5',
-      apiKey: '',
-      heroku: 'https://weathertest1313.herokuapp.com/',
       temp: null,
       humidity:'' ,
       weather:'' ,
       icon: '02d',
       tab: null,
       city: 'Seoul',
-      name: 'Seoul',
+      name: 'Busan',
       
       cities: [
         { name: 'Seoul'},
@@ -88,9 +85,9 @@ export default {
     selectCity (name, city) {
       
       const key = '8063928eca7ac03ec82e133af80e5e80'
-      axios.get(`${this.heroku}${this.requestLink}weather?q=${city}&units=metric&appid=${key}`)
-      //axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${key}`).
-      .then(res => {
+      //axios.get(`${this.heroku}${this.requestLink}weather?q=${city}&units=metric&appid=${key}`)
+      axios.get(`https://weathertest1313.herokuapp.com/weather?q=${city}&units=metric&appid=${key}`).
+      then(res => {
       
         console.log(res.data) 
         const list = res.data
