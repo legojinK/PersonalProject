@@ -1,0 +1,47 @@
+[
+  {
+    "cafe_no": 1,
+    "cafe_lat": 126.899,
+    "cafe_lon": 37.4831,
+    "name": "맛있다",
+    "cafe_location": "구로구"
+  },
+  {
+    "cafe_no": 2,
+    "cafe_lat": 127.002,
+    "cafe_lon": 37.5739,
+    "name": "마카롱",
+    "cafe_location": "중구"
+  },
+  {
+    "cafe_no": 3,
+    "cafe_lat": 127.022,
+    "cafe_lon": 37.5008,
+    "name": "도담",
+    "cafe_location": "강남구",
+    "cafe_image":"../../assets/picture/aptinner.jpg"
+  },
+  {
+    "cafe_no": 4,
+    "cafe_lat": 127.091274,
+    "cafe_lon": 37.5522944,
+    "name": "와플",
+    "cafe_location": "광진구" 
+  },
+  {
+    "cafe_no": 5,
+    "cafe_lat": 127.034920,
+    "cafe_lon": 37.500776,
+    "name": "핫도그",
+    "cafe_location": "강남구",
+    "cafe_image":"@/assets/picture/01d.png"
+  },
+  {
+    "cafe_no": 6,
+    "cafe_lat": 127.03707036275026,
+    "cafe_lon": 37.50294293696842,
+    "name": "몽쉘",
+    "cafe_location": "강남구",
+    "cafe_image":"@/assets/picture/01d.png"
+  }
+]
